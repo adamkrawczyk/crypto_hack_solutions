@@ -9,3 +9,4 @@ import math
 for x in range(1, 1000000):
     if x % 5 == 2 and x % 11 == 3 and x % 17 == 5:
         print(x % 935)
+        break
